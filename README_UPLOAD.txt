@@ -1,30 +1,17 @@
-SPANISHGYMCLASS – FLACHES GITHUB-PAKET
-=====================================
+SpanishGymClass – V2 mit klassischem App-Icon
 
-Alle Dateien in diesem Ordner gehören direkt in das Hauptverzeichnis des neuen GitHub-Repositories "SpanishGymClass".
-Es gibt absichtlich KEINE Unterordner.
+Alle Dateien liegen absichtlich direkt im Hauptverzeichnis.
 
-UPLOAD AUF GITHUB
-1. Neues öffentliches Repository "SpanishGymClass" erstellen.
-2. Im leeren Repository: "Add file" -> "Upload files".
-3. Diesen ZIP-Ordner lokal ENTPACKEN.
-4. Im entpackten Ordner ALLE Dateien markieren (nicht den Ordner selbst / nicht die ZIP-Datei).
-5. Die markierten Dateien gemeinsam in die GitHub-Uploadfläche ziehen.
-6. Commit changes.
-7. Settings -> Pages -> Deploy from a branch -> main / (root) -> Save.
+Upload:
+1. Alle Dateien in diesem Ordner markieren.
+2. In das Root-Verzeichnis des GitHub-Repositories SpanishGymClass hochladen.
+3. Vorhandene Dateien gleichen Namens ersetzen/überschreiben.
+4. GitHub Pages weiter aus main / root ausliefern.
 
-WICHTIG
-- index.html, content.js und alle .webp-Dateien müssen auf derselben Ebene liegen.
-- Die App speichert Lernfortschritt ausschließlich lokal im Browser (localStorage).
-- Es gibt bewusst keinen Service Worker in dieser ersten Unterrichtsversion. Dadurch kann keine alte Cache-Version mit der neuen App interferieren.
-- Die App benötigt für den ersten Aufruf Internetzugang zu GitHub Pages; danach kann der Browser einzelne Ressourcen normal zwischenspeichern, aber Offline-Betrieb ist nicht garantiert.
+Diese Fassung behält die V2-Verbesserungen (sichtbare Sport-Wallpaper, stärkeres Konfetti,
+Boss-/Hall-of-Fame-Logik), verwendet aber wieder das vorherige SG-App-Logo.
+Die alten Dateien manifest-v2.webmanifest und spanishgym-shoe-*.png dürfen auf GitHub
+liegen bleiben; die App verweist nicht mehr darauf.
 
-ENTHALTEN
-- 24 konsistente Avatare (neutral + Jubelzustand)
-- Übungsmodus und Challenge Builder für Unidad 1 und 2
-- Fitness Clash mit Gewinner-Avatar und Konfetti
-- Final Bosse mit Timer, 80%-Siegschwelle und Gold/Silber/Bronze-Platzierung
-- Boss-Sprüche nach Sieg/Niederlage
-- Hall of Fame mit 24 Auszeichnungen
-- 8 Sportwelten / Hintergründe
-- Smartphone-optimierte Sonderzeichenzeile oberhalb des Eingabefelds
+Auf Android: Falls ein alter Homescreen-Shortcut existiert, diesen löschen und die App
+anschließend neu zum Startbildschirm hinzufügen, damit das Icon sicher aktualisiert wird.
